@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MatematicasAplicacion</string>
+    <string name="funcion">∫dx√x</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="perfil">crear Perfil</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="salir">Salir</string>
+
+    <!--Definimos las variables para el activity  de perfil-->
+    <string name="titulo">Datos Personales</string>
+    <string name="nombres">Ingresa tu nombre</string>
+    <string name="apellidos">Ingresa tu apellido</string>
+    <string name="correo">Ingresa tu correo electrónico</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="logo">logotipo</string>
+
+    <!--Definimos los strings para la pantalla de las opciones-->
+    <string name="simplificar">Simplificar ecuación de 1° grado.</string>
+    <string name="resolver">Resolver ecuación de 1° grado.</string>
+    <string name="Radical">Resolver ecuación con radical.</string>
+    <string name="cuadratica">Resolver ecuación cuadrática.</string>
+    <string name="textview"/>
+
+    // definimos los sings que seran utilizados en los calculos
+    <string name="items"> 123 </string>
+    <string name="ingreso">Ingresa # items en la ecuación: </string>
+
+</resources>
