@@ -15,8 +15,8 @@ class Perfil : AppCompatActivity() {
         // verificamos si hace click en el boton comenzar
 
         btnComenzar.setOnClickListener(){
-            var nombre: String = txtNombre.text.toString()
-            val abrir:Intent=Intent(this,opciones::class.java)
+            val nombre: String = txtNombre.text.toString()
+            val abrir=Intent(this,Opciones::class.java)
             abrir.putExtra("nombreParametro",nombre)
             startActivity(abrir)
         }

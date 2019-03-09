@@ -14,7 +14,7 @@
     <string name="title_activity_perfil">Perfil</string>
     <string name="logo">logotipo</string>
 
-    <!--Definimos los strings para la pantalla de las opciones-->
+    <!--Definimos los strings para la pantalla de las Opciones-->
     <string name="simplificar">Simplificar ecuación de 1° grado.</string>
     <string name="resolver">Resolver ecuación de 1° grado.</string>
     <string name="Radical">Resolver ecuación con radical.</string>
@@ -34,7 +34,14 @@
     <string name="Ocho"> #8 </string>
     <string name="Nueve"> #9 </string>
     <string name="Diez"> #10 </string>
+    <string name="Once"> #11 </string>
+    <string name="Doce"> #12 </string>
+    <string name="Resultado">  </string>
     <string name="variable"> x/y </string>
+    <string name="signo">+/-</string>
+    <string name="calcular">Calcular</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Generar">Generar</string>
 
 
 </resources>
