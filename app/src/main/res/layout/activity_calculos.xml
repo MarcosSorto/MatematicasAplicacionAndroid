@@ -474,13 +474,13 @@
             android:layout_marginLeft="1dp" android:layout_marginStart="1dp"
             app:layout_constraintHorizontal_bias="0.129"
             app:layout_constraintBottom_toTopOf="@+id/btnCalcular" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="430dp"/>
+            android:layout_marginTop="430dp" android:textStyle="bold" android:textSize="24sp"/>
     <Button
             android:text="@string/calcular"
-            android:layout_width="98dp"
+            android:layout_width="133dp"
             android:layout_height="40dp"
-            android:id="@+id/btnCalcular" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp" android:layout_marginTop="20dp"
+            android:id="@+id/btnCalcular" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="80dp"
+            android:layout_marginStart="80dp" android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/txtResultado" app:layout_constraintEnd_toStartOf="@+id/btnLimpiar"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             app:layout_constraintHorizontal_bias="0.719"/>
@@ -488,9 +488,10 @@
             android:text="@string/Limpiar"
             android:id="@+id/btnLimpiar" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="124dp"
             android:layout_marginRight="124dp" android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtResultado" android:layout_width="90dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtResultado" android:layout_width="128dp"
             android:layout_height="40dp" app:layout_constraintStart_toEndOf="@+id/btnCalcular"
-            app:layout_constraintHorizontal_bias="0.5"/>
+            app:layout_constraintHorizontal_bias="0.5" android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"/>
     <Button
             android:text="@string/Generar"
             android:layout_width="wrap_content"

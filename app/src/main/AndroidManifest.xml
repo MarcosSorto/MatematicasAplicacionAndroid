@@ -14,6 +14,7 @@
         <activity android:name=".Opciones">
         </activity>
 
+
         <activity
                 android:name=".Perfil"
                 android:label="@string/title_activity_perfil"
