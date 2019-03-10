@@ -1,10 +1,12 @@
 package com.example.matematicasaplicacion
 
 
+import android.app.Dialog
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +27,11 @@ class MainActivity : AppCompatActivity() {
             val nombre="Amigo"
             abrir.putExtra("nombreParametro",nombre)
             startActivity(abrir)
+        }
+
+        //verificamos si el usuario hace click en el boton salir
+        btnSalir.setOnClickListener(){
+            this.finish()
         }
 
     }

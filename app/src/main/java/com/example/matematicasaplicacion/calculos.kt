@@ -13,6 +13,7 @@ private var items=0
 private var mensajeRespuesta=""
 private var primeros=0
 private var segundos=0
+
 //definir las varibles a utilizar
     private var numero1:Int?=null; private var var1:String?=null; private var signo1:String?=null
     private var numero2:Int?=null; private var var2:String?=null; private var signo2:String?=null
@@ -144,28 +145,42 @@ private var segundos=0
             respuesta="Hay datos vacios"
         }else if(txtNumero2.text.isNullOrEmpty() || txtVariable2.text.isNullOrEmpty()) {
             respuesta="Hay datos vacios"
-        }else{
-            numero1= txtNumero1.text.toString().toInt()
-            var1= txtVariable1.text.toString()
-            signo1= txtSigno1.text.toString()
+        }else {
+            numero1 = txtNumero1.text.toString().toInt()
+            var1 = txtVariable1.text.toString()
+            signo1 = txtSigno1.text.toString()
 
-            numero2= txtNumero2.text.toString().toInt()
+            numero2 = txtNumero2.text.toString().toInt()
             var2 = txtVariable2.text.toString()
 
             //validamos si ambas variables son iguales
-                if (var1.equals(var2))
-                {
-                    if(signo1!!.contentEquals("+")){
-                        resultado = numero1!! + numero2!!
-                        respuesta = "$resultado$var1"
-                        }else if(signo1!!.contentEquals("-")){
-                            resultado = numero1!!-numero2!!
-                            respuesta = "$resultado$var1"
-                        }
-                }else{
-                        respuesta = "$numero1$var1 $signo1 $numero2$var2"
+            if (var1.equals(var2)) {
+                if (signo1!!.contentEquals("+")) {
+                    resultado = numero1!! + numero2!!
+                    respuesta = "$resultado$var1"
+                } else if (signo1!!.contentEquals("-")) {
+                    resultado = numero1!! - numero2!!
+                    respuesta = "$resultado$var1"
                 }
+            } else {
+
+                val r1: String
+                val cambio1: Int
+                val r2: String
+                val cambio2: Int
+
+                if ( Opciones.resp==1) {
+                    cambio1 = (numero1!! * -1)
+                    cambio2 = (numero2!! * -1)
+                    r1 = "$var1 = $numero2$var2 /$cambio1"
+                    r2 = "$var2 = $numero1$var1 /$cambio2"
+                    respuesta = "$r1  ,  $r2"
+                } else {
+                    respuesta = "$numero1$var1 $signo1 $numero2$var2"
+                }
+            }
         }
+
         return respuesta
     }
     private fun calcularTres():String {
