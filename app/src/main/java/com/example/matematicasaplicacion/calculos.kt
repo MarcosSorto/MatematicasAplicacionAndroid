@@ -170,10 +170,10 @@ private var segundos=0
                 val cambio2: Int
 
                 if ( Opciones.resp==1) {
-                    cambio1 = (numero1!! * -1)
-                    cambio2 = (numero2!! * -1)
-                    r1 = "$var1 = $numero2$var2 /$cambio1"
-                    r2 = "$var2 = $numero1$var1 /$cambio2"
+                    cambio1 = (numero2!! * -1)
+                    cambio2 = (numero1!! * -1)
+                    r1 = "$var1 = $cambio1$var2 /$numero1"
+                    r2 = "$var2 = $cambio2$var1 /$numero2"
                     respuesta = "$r1  ,  $r2"
                 } else {
                     respuesta = "$numero1$var1 $signo1 $numero2$var2"
@@ -254,6 +254,18 @@ private var segundos=0
                 }
 
         }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
+            }
         }
         return respuesta
     }
@@ -337,6 +349,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -431,6 +455,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -534,6 +570,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -647,6 +695,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -769,6 +829,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -899,6 +971,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -1038,6 +1122,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -1187,6 +1283,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
         }
         return respuesta
@@ -1358,6 +1466,18 @@ private var segundos=0
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
 
+            }
+            val r1: String
+            val cambio1: Int
+            val r2: String
+            val cambio2: Int
+
+            if ( Opciones.resp==1) {
+                cambio1 = (segundos * -1)
+                cambio2 = (primeros * -1)
+                r1 = "$var1 = $cambio1$var2 /$primeros"
+                r2 = "$var2 = $cambio2$var1 /$segundos"
+                respuesta = "$r1  ,  $r2"
             }
 
         }
