@@ -3,11 +3,10 @@ package com.example.matematicasaplicacion
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.text.StaticLayout
 import kotlinx.android.synthetic.main.activity_opciones.*
 
 class Opciones : AppCompatActivity() {
-open var opcion:Int=0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_opciones)
@@ -32,8 +31,22 @@ open var opcion:Int=0
             resp=1
 
             startActivity((abrir))
-
         }
+
+        //verificamos is se accede a resolver el radical
+        btnResolverRadical.setOnClickListener{
+            val abrir=Intent(this,Racionales::class.java)
+            startActivity((abrir))
+        }
+
+        //verificamos si se accede a resolver la cuadratica
+        btnResolverCuadratica.setOnClickListener{
+            val seleccion:String=btnResolverCuadratica.text.toString()
+            val abrir=Intent(this,Cuadratica::class.java)
+            abrir.putExtra("nombreParametro",seleccion)
+            startActivity((abrir))
+        }
+
     }
     companion object {
 

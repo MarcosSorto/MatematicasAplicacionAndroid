@@ -22,26 +22,34 @@
     <string name="textview"/>
 
     // definimos los sings que seran utilizados en los calculos
-    <string name="items"> 123 </string>
-    <string name="ingreso">Ingresa # items en la ecuación: </string>
-    <string name="Uno"> #1 </string>
-    <string name="Dos"> #2 </string>
-    <string name="Tres"> #3 </string>
-    <string name="Cuatro"> #4 </string>
-    <string name="Cinco"> #5 </string>
-    <string name="Seis"> #6 </string>
-    <string name="Siete"> #7 </string>
-    <string name="Ocho"> #8 </string>
-    <string name="Nueve"> #9 </string>
-    <string name="Diez"> #10 </string>
-    <string name="Once"> #11 </string>
-    <string name="Doce"> #12 </string>
-    <string name="Resultado">  </string>
-    <string name="variable"> x/y </string>
+    <string name="items">123</string>
+    <string name="ingreso">Ingresa # items en la ecuación:</string>
+    <string name="Uno">#1</string>
+    <string name="Dos">#2</string>
+    <string name="Tres">#3</string>
+    <string name="Cuatro">#4</string>
+    <string name="Cinco">#5</string>
+    <string name="Seis">#6</string>
+    <string name="Siete">#7</string>
+    <string name="Ocho">#8</string>
+    <string name="Nueve">#9</string>
+    <string name="Diez">#10</string>
+    <string name="Once">#11</string>
+    <string name="Doce">#12</string>
+    <string name="Resultado"></string>
+    <string name="variable">x/y</string>
     <string name="signo">+/-</string>
     <string name="calcular">Calcular</string>
     <string name="Limpiar">Limpiar</string>
     <string name="Generar">Generar</string>
 
+    //definimos los valores de resolver cuadratica.
+    <string name="ingresaValores">Ingresa los valores de la ecuación: </string>
+    <string name="a">ax2</string>
+    <string name="b">bx</string>
+    <string name="c">c</string>
+
+    //definimos para tomar foto
+    <string name="tomarFoto">Tomar Foto</string>
 
 </resources>

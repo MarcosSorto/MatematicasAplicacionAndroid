@@ -67,7 +67,6 @@ private var segundos=0
             txtCantidad.hasFocus()
         }
 
-
         btnCalcular.setOnClickListener{
                 when(items){
                     2-> mensajeRespuesta= calcularDos()
@@ -252,7 +251,6 @@ private var segundos=0
                 }else{
                     "$primeros$primeraVariable + $segundos$segundaVariable"
                 }
-
         }
             val r1: String
             val cambio1: Int
