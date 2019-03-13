@@ -44,7 +44,7 @@
     <string name="Generar">Generar</string>
 
     //definimos los valores de resolver cuadratica.
-    <string name="ingresaValores">Ingresa los valores de la ecuación: </string>
+    <string name="ingresaValores">Ingresa los valores de la ecuación:</string>
     <string name="a">ax2</string>
     <string name="b">bx</string>
     <string name="c">c</string>
